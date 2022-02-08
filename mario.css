@@ -44,8 +44,8 @@ body {
   position: absolute;
   top: -55px;
   left: 0px;
-  animation-name: drive 3s both infinite linear,
-                  jump 0.3s 1.2s ease;
+  animation: drive 3s both infinite linear,
+                  jump 0.3s 1.2s  ease;
   
   /*/animation-timing-function: cubic-bezier(.12,.71,.82,.24);/*/
   
@@ -60,7 +60,7 @@ body {
     transform: translateX(-200px);
   }
   to {
-    transform: translateX(1300px);
+    transform: translateX(1200px);
   }
 }
 
